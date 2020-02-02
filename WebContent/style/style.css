@@ -1,1 +1,114 @@
 /* Add styles for truYum application here */
+body, html {
+    height: 100%;
+  }
+body{
+    margin: 0px;
+}
+nav{
+    height: 4em;
+    background-color:#1c1ca2;
+    display: inline-flex;
+    width: 100%;
+    color: white;
+}
+nav img{
+    width: 7%;
+}
+.nav-right a{
+    color: white; 
+    padding:10px 2em;   
+}
+.nav-right{
+    position: absolute;
+    margin: 20px;
+    right: 2em;
+}
+.nav-left{
+    position: absolute;
+    left: 5em;
+    display: inherit;
+}
+.nav-left img{
+    height: 3em;
+    margin: 5px;
+    margin-left: 4em;
+}
+.nav-left h3{
+    font-size: 2em;
+    margin: 10px;
+}
+.content{
+    margin: 5em auto 0;
+    width: 80%;
+}
+.content > h3{
+    color: green;
+    text-align: center;
+}
+.content div>h3{
+    color: green;
+}
+footer{
+    background-color: gainsboro;
+    padding: 1px 2em;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;    
+}
+table{
+    width:100%;
+    margin: 0 auto;
+}
+td{
+    padding:2px;
+}
+th:nth-child(2),th:nth-child(3){
+    width: 17%;
+}
+table tr td:nth-child(3),th:nth-child(3){
+    text-align: right;
+}
+table tr td:nth-child(4){
+padding-left: 1em;
+}
+#total{
+    font-weight: bold;
+}
+th{
+    font-weight: bold;
+    text-align: left;
+}
+#menu tr td:nth-child(4),th:nth-child(4),tr td:nth-child(2){
+text-align: center;
+}
+#menu-admin tr td:nth-child(1){
+    text-align: left;
+}
+#menu-admin tr td:nth-child(2),th:nth-child(2){
+    text-align: right;
+}
+#menu-admin tr td:nth-child(3)+:nth-child(4)+:nth-child(5)+:nth-child(6)+:nth-child(7),th::nth-child(3)+:nth-child(4)+:nth-child(5)+:nth-child(6)+:nth-child(7){
+    text-align: center;
+}
+#name-box{
+    width: 100%;
+}
+.form-box{
+    width: 25%;
+    margin: 2em 0 0;
+}
+#forms{
+    display: flex;
+    
+}
+select{
+    width: 100%;
+}
+#save-btn{
+    padding: 11px 25px;
+    background-color: blue;
+    border: NONE;
+    border-radius: 5px;
+    color: white;
+}

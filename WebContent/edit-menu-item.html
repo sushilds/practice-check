@@ -1,0 +1,55 @@
+<head>
+    <link rel="stylesheet" href="style/style.css">
+    
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <h3>truYum</h3>
+            <img src="images/truyum-logo-light.png" alt="TRUYUM">
+        </div>
+        <div class="nav-right">
+            <a href="menu-item-list-admin.html">Menu</a>
+        </div>
+    </nav>
+    <div class="content">
+        <h2>Edit Menu Item</h2>
+        <form>
+            <label>Name</label><br>
+            <input type="text" id='name-box'>
+            <div id='forms'>
+                <div class='form-box'>
+                    <label>Price (Rs.)</label><br>
+                    <input type="text">
+                </div>
+                <div class='form-box'>
+                    <label>Active</label><br>
+                    <input type="radio"  name="active" value="Yes"> Yes
+                    <input type="radio"  name="active" value="No"> No
+                </div>
+                <div class='form-box'>
+                    <label>Date of Launch</label><br>
+                    <input type="text">
+                </div>
+                <div class='form-box'>
+                    <label>Categoery</label><br>
+                    <select>
+                        <option value="Main Course">Main Course</option>
+                        <option value="Starters">Starters</option>
+                        <option value="Dessert">Dessert</option>
+                        <option value="Drinks">Drinks</option>
+                    </select>
+                </div>
+        </div>
+        <div class='form-box'>
+            <input type="checkbox" name='Free Deliver'><label>Free Delivery</label>
+        </div>
+        <div class='form-box'>
+            <input id='save-btn' type="submit" value="Save">
+        </div>
+        </form>
+    </div>
+    <footer>
+        <p>Copyrights &copy 2019</p>
+    </footer>
+</body>
